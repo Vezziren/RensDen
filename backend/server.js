@@ -5,7 +5,6 @@ const nodemailer = require('nodemailer');
 const path = require('path');
 
 // CRITICAL: Load .env explicitly from this file's directory
-require('dotenv').config({ path: path.resolve(__dirname, '.env') });
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -165,14 +164,4 @@ app.get('/api/messages', (req, res) => {
   res.json(messages);
 });
 
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../frontend/dist')));
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../frontend/dist/index.html'));
-  });
-}
-
-app.listen(PORT, () => {
-  console.log(`\uD83D\uDCBB Vezziren's Den server running on port ${PORT}`);
-  console.log(`\uD83D\uDE80 Environment: ${process.env.NODE_ENV || 'development'}`);
-});
+module.exports = app;
