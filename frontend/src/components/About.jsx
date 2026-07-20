@@ -92,7 +92,7 @@ const About = () => {
           <div className="about-content" ref={contentRef}>
             <span className="section-label mono about-line">01 / About</span>
             <h2 className="about-title about-line">
-              Vezziren S*****
+                          Vezziren
             </h2>
             <p className="about-text about-line">
               I am a developer, a broad term, but the one that describes what I do best.
