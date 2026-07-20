@@ -32,10 +32,7 @@ const Footer = () => {
   }, [animate]);
 
   const socialLinks = [
-    { name: 'GitHub', href: '#' },
-    { name: 'LinkedIn', href: '#' },
-    { name: 'Twitter', href: '#' },
-    { name: 'Dribbble', href: '#' }
+    { name: 'GitHub', href: 'https://github.com/Vezziren' }
   ];
 
   return (
@@ -44,7 +41,7 @@ const Footer = () => {
         <div className="footer-grid">
           <div className="footer-brand footer-stagger">
             <a href="#hero" className="footer-logo">
-              <span>Vezziren'sDen</span>
+              <span>Vezziren's Den</span>
             </a>
             <p className="footer-tagline">
               Crows are menaces.

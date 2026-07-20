@@ -122,7 +122,7 @@ const Projects = () => {
             Featured <span className="gold-text">Project</span>
           </h2>
           <p className="projects-subtitle">
-            An interactive e-commerce experience built with precision and passion.
+            An interactive e-commerce experience built with precision and passion. [NOT PUBLISHED]
           </p>
         </div>
 

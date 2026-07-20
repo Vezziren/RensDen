@@ -92,16 +92,16 @@ const About = () => {
           <div className="about-content" ref={contentRef}>
             <span className="section-label mono about-line">01 / About</span>
             <h2 className="about-title about-line">
-              CEO of absolutely no company.
+              Vezziren S*****
             </h2>
             <p className="about-text about-line">
-              I am a developer. I use such a broad term because that describes best of what I do.
-              Software developing, Web developing, UI/UX, etc. My expertise spans across not only
-              developing but taps into AI prompting and engineering as well.
+              I am a developer, a broad term, but the one that describes what I do best.
+              My work spans software development, web development, UI/UX design, and AI prompt engineering. 
+              Rather than specializing in a single discipline, I focus on building complete digital experiences from concept to execution.
             </p>
             <p className="about-text about-line">
-              I can best define myself as both an architect and an engineer. The one who designs
-              the house, is the same who builds the house.
+              I consider myself both an architect and an engineer.
+              Equally comfortable designing the blueprint as I am building the final product.
             </p>
             <div className="about-tags about-line">
               {['React', 'Node.js', 'Three.js', 'WebGL', 'UI/UX'].map(tag => (
